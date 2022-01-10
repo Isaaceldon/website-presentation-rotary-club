@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/splide.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -56,7 +57,7 @@
         padding: 4px 8px;
        }
 
-       ul li:hover{
+       ul li:active{
             background: rgba( 255, 255, 255, 0.25 );
             box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
             backdrop-filter: blur( 5.0px );
@@ -71,14 +72,14 @@
 </head>
 <body >
 
-    <main  class="px-32">
+    <main  >
 
         <div>
             <nav class="flex justify-center py-8 ">
                 <ul class="flex text-white text-2xl ">
-                    <li class="mr-5"><a href="index.html">Accueil</a></li>
-                    <li class="features"><a href="#">Fonctionnalités</a></li>
-                    <li class="mx-8"><a href="about-us.html"> Qui sommes nous?</a></li>
+                    <li class="mr-5"><a href="../index.html">Accueil</a></li>
+                    <li class=""><a href="./fonctionnalites.html">Fonctionnalités</a></li>
+                    <li class="mx-8 features"><a href=""> Qui sommes nous?</a></li>
                     <!-- <li><a href="">Faq</a> </li> -->
                 </ul>
             </nav>
@@ -86,64 +87,14 @@
 
 
         <div>
-            <section class="functionnality">
-                <div class="flex justify-between flex-wrap">
-                    <div data-aos="fade-right" class="description flex-1 flex flex-col items-center justify-center text-4xl text-white uppercase">
-                        <h1>Crée des réunions </h1>
-                    </div>
-                    <div class="img w-1/2">
-                        <img data-aos="fade-left" src="./assets/img/meet.png" class="h-screen object-cover " alt="">
-                    </div>
-
-                    <div class="description">
-
-                    </div>
-                    <div class="img">
-
-                    </div>
-                </div>
-
-                <div class="flex justify-between flex-wrap">
-                    <div class="img w-1/2">
-                        <img data-aos="fade-left" src="./assets/img/achievement.png" class="h-screen object-cover" alt="">
-                    </div>
-                    <div data-aos="fade-right" class="description flex-1 flex items-center justify-center text-4xl text-white uppercase">
-                        <h1>Decouvrez nos réalisations</h1>
-                    </div>
-
-                    <div class="description">
-
-                    </div>
-                    <div class="img">
-
-                    </div>
-                </div>
-
-                <div class="flex justify-between flex-wrap">
-                    <div data-aos="fade-right" class="description flex-1 flex items-center justify-center text-4xl text-white uppercase">
-                        <h1>Decouvrez nos objectifs</h1>
-                    </div>
-                    <div class="img w-1/2 ">
-                        <img data-aos="fade-left" src="./assets/img/objectifs.png" class="h-screen object-cover" alt="">
-                    </div>
-                </div>
-
-                <div class="flex">
-                    <div class="img w-1/2 flex-1">
-                        <img data-aos="fade-left" src="./assets/img/reserve.png" class="h-screen object-cover" alt="">
-                    </div>
-                    <div data-aos="fade-right" class="description  flex items-center justify-center text-4xl text-white uppercase">
-                        <h1>Reservez votre place</h1>
-                    </div>
-                </div>
-
-                <div class="flex">
-                    <div data-aos="fade-right" class="description  flex items-center justify-center text-4xl text-white uppercase">
-                        <h1>Faire une demande d'adhesion</h1>
-                    </div>
-                    <div class="img w-1/2 flex-1"  >
-                        <img data-aos="fade-left" src="./assets/img/reserve.png" class="h-screen object-cover flex-1 flex flex-col" alt=""  >
-                    </div>
+            <section class="about_us">
+                <div class="text-white text-center text-2xl w-3/5 m-auto mt-4">
+                    <h1 data-aos="flip-up" class="mb-8">
+                        Le Rotary est un réseau mondial de 1,2 million de décideurs solidaires qui voient un monde où les gens se rassemblent et passent à l’action pour apporter un changement durable – dans le monde, dans leur communauté et en eux-mêmes.
+                    </h1>
+                    <h2 data-aos="flip-up">
+                        Apporter des solutions aux problèmes les plus pressants nécessite un véritable engagement et une vision. Depuis plus de 110 ans, les membres du Rotary utilisent leur passion, leur dynamisme et leur intelligence pour passer à l’action. Qu’il s’agisse d’alphabétisation, de paix, d’eau ou de santé, nous travaillons avec détermination pour améliorer les conditions de vie dans le monde et nous honorons nos engagements.
+                    </h2>
                 </div>
             </section>
 
@@ -154,7 +105,7 @@
         
     </div>
 
-    <scrip src="./js/typed.js">
+    <scrip src="./js/splide.min.js">
     </scrip>
     <script src="./js/jquery.min.js">
     </script>
