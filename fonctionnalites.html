@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Rotary</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:"open sans";
+        }
+        body{
+            background-color: #F7A81B !important;
+            overflow-x: hidden;
+        }
+       .frame_wrapper{
+           height: 100vh;
+           width: 100vw;
+       }
+       .main-content{
+           /* position: absolute; */
+           /* top:50%; */
+           /* transform: translateY(-50%); */
+       }
+       .main-content h1{
+           color:white;
+       }
+       .sidebar,.presentation{
+           
+       }
+
+       .second-box h1{
+           color:white;
+           margin-left: 3rem;
+           font-weight:bold;
+           font-size:2rem;
+           text-transform: uppercase;
+       }
+
+       .features{
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 5.0px );
+        -webkit-backdrop-filter: blur( 5.0px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        padding: 4px 8px;
+       }
+
+       ul li:hover{
+            background: rgba( 255, 255, 255, 0.25 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 5.0px );
+            -webkit-backdrop-filter: blur( 5.0px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+            padding: 4px 8px;
+       }
+
+       
+    </style>
+</head>
+<body >
+
+    <main  class="px-32">
+
+        <div>
+            <nav class="flex justify-center py-8 ">
+                <ul class="flex text-white text-2xl ">
+                    <li class="mr-5"><a href="index.html">Accueil</a></li>
+                    <li class="features"><a href="#">Fonctionnalités</a></li>
+                    <li class="mx-8"><a href="about-us.html"> Qui sommes nous?</a></li>
+                    <!-- <li><a href="">Faq</a> </li> -->
+                </ul>
+            </nav>
+        </div>
+
+
+        <div>
+            <section class="functionnality">
+                <div class="flex justify-between flex-wrap">
+                    <div data-aos="fade-right" class="description flex-1 flex flex-col items-center justify-center text-4xl text-white uppercase">
+                        <h1>Crée des réunions </h1>
+                    </div>
+                    <div class="img w-1/2">
+                        <img data-aos="fade-left" src="./assets/img/meet.png" class="h-screen object-cover " alt="">
+                    </div>
+
+                    <div class="description">
+
+                    </div>
+                    <div class="img">
+
+                    </div>
+                </div>
+
+                <div class="flex justify-between flex-wrap">
+                    <div class="img w-1/2">
+                        <img data-aos="fade-left" src="./assets/img/achievement.png" class="h-screen object-cover" alt="">
+                    </div>
+                    <div data-aos="fade-right" class="description flex-1 flex items-center justify-center text-4xl text-white uppercase">
+                        <h1>Decouvrez nos réalisations</h1>
+                    </div>
+
+                    <div class="description">
+
+                    </div>
+                    <div class="img">
+
+                    </div>
+                </div>
+
+                <div class="flex justify-between flex-wrap">
+                    <div data-aos="fade-right" class="description flex-1 flex items-center justify-center text-4xl text-white uppercase">
+                        <h1>Decouvrez nos objectifs</h1>
+                    </div>
+                    <div class="img w-1/2 ">
+                        <img data-aos="fade-left" src="./assets/img/objectifs.png" class="h-screen object-cover" alt="">
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div class="img w-1/2 flex-1">
+                        <img data-aos="fade-left" src="./assets/img/reserve.png" class="h-screen object-cover" alt="">
+                    </div>
+                    <div data-aos="fade-right" class="description  flex items-center justify-center text-4xl text-white uppercase">
+                        <h1>Reservez votre place</h1>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div data-aos="fade-right" class="description  flex items-center justify-center text-4xl text-white uppercase">
+                        <h1>Faire une demande d'adhesion</h1>
+                    </div>
+                    <div class="img w-1/2 flex-1"  >
+                        <img data-aos="fade-left" src="./assets/img/reserve.png" class="h-screen object-cover flex-1 flex flex-col" alt=""  >
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+    
+        
+    </div>
+
+    <scrip src="./js/typed.js">
+    </scrip>
+    <script src="./js/jquery.min.js">
+    </script>
+    <script src="./js/particles.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script  type="module">
+        import Typed from "./js/typed.js"
+        if ($(".text-slider").length == 1) {
+            var typed = new Typed(".text-slider", {
+                strings: ['Passez a l\'action ', 'Le Rotary unit <br /> plus  d’un million ', '','de personnes .'],
+                typeSpeed: 50,
+                loop: true,
+                backDelay: 900,
+                backSpeed: 30,
+            });
+        }
+    </script>
+    <script>
+
+        $(function(){
+
+            let sidebar=$('.sidebar'),
+                bars = $('.fa-bars'),
+                times= $('.fa-times'),
+                frame=$('#frame'),
+                anchors=$('.spline-watermark'),
+                next=$('.next-page'),
+                presentation=$('.presentation'),
+                home=$('.home-page');
+
+            $(bars).click(()=>{
+                $(sidebar).attr('class','block sidebar')
+
+                $(bars).attr('class','hidden')
+
+                $(next).hide()
+            })
+
+            $(times).click(()=>{
+
+                $(next).show()
+
+                $(sidebar).attr('class','hidden')
+
+                $(bars).attr('class','fa fa-bars text-white fa-1x absolute p-4 right-0')
+
+            })
+
+            $(next).click(()=>{
+                window.location.pathname="/presentation.html"
+                //$(home).fadeOut()
+                //$(presentation).attr('class','presentation h-screen block w-screen')
+            })
+        })
+    </script>
+    <script>
+        particlesJS.load('particles-js', './particles.json', function() {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
+</body>
+</html>
